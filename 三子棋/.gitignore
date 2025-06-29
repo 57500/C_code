@@ -1,0 +1,56 @@
+### Visual Studio 核心忽略 ###
+# 编译输出
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+x64/           # 特别添加，匹配你的目录
+x86/
+
+# IDE 文件
+.vs/
+.vscode/
+*.VC.db
+*.VC.VC.opendb
+
+# 用户文件
+*.user
+*.userosscache
+*.sln.docstates
+
+# 调试文件
+*.pdb
+*.ilk
+*.iobj
+*.ipdb
+*.db
+
+# 日志
+*.log
+*.tlog
+
+# 其他临时文件
+*.cache
+*.suo
+*.opensdf
+*.sdf
+*.idb
+*.map
+
+### C语言特定忽略 ###
+*.exe
+*.out
+*.lib
+*.a
+*.dll
+*.so
+*.pch
+*.sbr
+*.bsc
+
+### 保留重要文件 ###
+!*.c
+!*.h
+!*.sln
+!*.vcxproj
+!*.vcxproj.filters
+!README.md
